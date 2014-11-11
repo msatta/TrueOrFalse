@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TrueOrFalse</string>
+    <string name="facebook_app_id">945961545433562</string>
+    <string name="title_activity_main">TrueOrFalse</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_activity_name">Choose your name!</string>
+    <string name="button_check_name">Ok</string>
+    <string name="text_check_name">Insert here your name</string>
+
+    <string name="title_activity_home">True Or False</string>
+    <string name="text_main_home">True Or False</string>
+    <string name="button_start_home">Start New Game</string>
+    <string name="button_ranking_home">Ranking</string>
+    <string name="title_activity_question">QuestionActivity</string>
+    <string name="title_activity_ranking">RankingActivity</string>
+    <string name="text_true_button">True</string>
+    <string name="text_false_button">False</string>
+    <string name="text_well_done">Well Done!</string>
+    <string name="text_well_done_sub">You have answered to every questions raised.</string>
+    <string name="rankingTitle">Top 10 Players:</string>
+    <string name="ranking_another_game">Try Again!</string>
+    <string name="text_game_over">Game Over</string>
+    <string name="connection_error">Connection error. Please, try again in a moment.</string>
+    <string name="name_not_available">This name is not available, please choose anotherone.</string>
+    <string name="forward_button"><![CDATA[>]]></string>
+
+    <string name="base_url">http://192.168.1.16:8080</string>
+    <string name="url_user_auth">/user/auth/</string>
+    <string name="url_user_registration">/user/registration/</string>
+    <string name="url_question">/game/question/</string>
+    <string name="url_score">/game/score/</string>
+
+</resources>

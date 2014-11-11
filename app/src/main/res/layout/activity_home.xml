@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/background"
+    tools:context="com.example.msatta.trueorfalse.HomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="190dp"
+        android:padding="10dp"
+        >
+        <Button
+            android:id="@+id/buttonStartGameHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_start_home"
+            android:background="@color/green"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:id="@+id/buttonRankingHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_ranking_home"
+            android:textColor="@color/white"
+            android:background="@color/com_facebook_blue"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            />
+    </LinearLayout>
+</LinearLayout>
